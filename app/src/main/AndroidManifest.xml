@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/app_icon"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/app_icon"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.ReMed4">
+        <activity
+            android:name=".Lawaris"
+            android:exported="false" />
+        <activity
+            android:name=".Register"
+            android:exported="false" />
+        <activity
+            android:name=".ReBuy"
+            android:exported="false" />
+        <activity
+            android:name=".Donate"
+            android:exported="false" />
+        <activity
+            android:name=".FirstPage"
+            android:exported="false" />
+        <activity
+            android:name=".ThirdFragment"
+            android:exported="false" />
+        <activity
+            android:name=".SecondFragment"
+            android:exported="false" />
+        <activity
+            android:name=".Canagliflozin"
+            android:exported="false" />
+        <activity
+            android:name=".Cardicheck"
+            android:exported="false" />
+        <activity
+            android:name=".Corbis"
+            android:exported="false" />
+        <activity
+            android:name=".Tamsulosin"
+            android:exported="false" />
+        <activity
+            android:name=".Ecosprin"
+            android:exported="false" />
+        <activity
+            android:name=".Dolo"
+            android:exported="false" />
+        <activity
+            android:name=".FirstActivity"
+            android:exported="false" />
+        <activity
+            android:name=".LoginActivity"
+            android:exported="false" />
+        <activity
+            android:name=".FreshBuy"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

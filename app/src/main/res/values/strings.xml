@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">ReMed</string>
+    <string name="get_started">Get Started</string>
+    <string name="welcome_to_remed">Welcome to ReMed</string>
+    <string name="your_health_matters">Health Comes First</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="first_fragment_master_coding_app">First Fragment : Master Coding App</string>
+    <string name="second_fragment_master_java_app">Second Fragment : MAster Java APp</string>
+    <string name="third_fragment_master_kotlin_app">Third Fragment : Master Kotlin App</string>
+</resources>

@@ -1,0 +1,174 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.remed4"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->C:\Users\endem\AndroidStudioProjects\ReMed4\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="32" />
+9-->C:\Users\endem\AndroidStudioProjects\ReMed4\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->C:\Users\endem\AndroidStudioProjects\ReMed4\app\src\main\AndroidManifest.xml:5:5-67
+11-->C:\Users\endem\AndroidStudioProjects\ReMed4\app\src\main\AndroidManifest.xml:5:22-64
+12
+13    <application
+13-->C:\Users\endem\AndroidStudioProjects\ReMed4\app\src\main\AndroidManifest.xml:7:5-68:19
+14        android:allowBackup="true"
+14-->C:\Users\endem\AndroidStudioProjects\ReMed4\app\src\main\AndroidManifest.xml:8:9-35
+15        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+15-->[androidx.core:core:1.7.0] C:\Users\endem\.gradle\caches\transforms-3\b9e4376e452ce4f1a2bbb1fc4b534124\transformed\core-1.7.0\AndroidManifest.xml:24:18-86
+16        android:debuggable="true"
+17        android:icon="@mipmap/ic_launcher"
+17-->C:\Users\endem\AndroidStudioProjects\ReMed4\app\src\main\AndroidManifest.xml:9:9-43
+18        android:label="@string/app_name"
+18-->C:\Users\endem\AndroidStudioProjects\ReMed4\app\src\main\AndroidManifest.xml:10:9-41
+19        android:roundIcon="@mipmap/ic_launcher_round"
+19-->C:\Users\endem\AndroidStudioProjects\ReMed4\app\src\main\AndroidManifest.xml:11:9-54
+20        android:supportsRtl="true"
+20-->C:\Users\endem\AndroidStudioProjects\ReMed4\app\src\main\AndroidManifest.xml:12:9-35
+21        android:testOnly="true"
+22        android:theme="@style/Theme.ReMed4" >
+22-->C:\Users\endem\AndroidStudioProjects\ReMed4\app\src\main\AndroidManifest.xml:13:9-44
+23        <activity
+23-->C:\Users\endem\AndroidStudioProjects\ReMed4\app\src\main\AndroidManifest.xml:14:9-16:40
+24            android:name="com.example.remed4.ReBuy"
+24-->C:\Users\endem\AndroidStudioProjects\ReMed4\app\src\main\AndroidManifest.xml:15:13-34
+25            android:exported="false" />
+25-->C:\Users\endem\AndroidStudioProjects\ReMed4\app\src\main\AndroidManifest.xml:16:13-37
+26        <activity
+26-->C:\Users\endem\AndroidStudioProjects\ReMed4\app\src\main\AndroidManifest.xml:17:9-19:40
+27            android:name="com.example.remed4.Donate"
+27-->C:\Users\endem\AndroidStudioProjects\ReMed4\app\src\main\AndroidManifest.xml:18:13-35
+28            android:exported="false" />
+28-->C:\Users\endem\AndroidStudioProjects\ReMed4\app\src\main\AndroidManifest.xml:19:13-37
+29        <activity
+29-->C:\Users\endem\AndroidStudioProjects\ReMed4\app\src\main\AndroidManifest.xml:20:9-22:40
+30            android:name="com.example.remed4.FirstPage"
+30-->C:\Users\endem\AndroidStudioProjects\ReMed4\app\src\main\AndroidManifest.xml:21:13-38
+31            android:exported="false" />
+31-->C:\Users\endem\AndroidStudioProjects\ReMed4\app\src\main\AndroidManifest.xml:22:13-37
+32        <activity
+32-->C:\Users\endem\AndroidStudioProjects\ReMed4\app\src\main\AndroidManifest.xml:23:9-25:40
+33            android:name="com.example.remed4.ThirdFragment"
+33-->C:\Users\endem\AndroidStudioProjects\ReMed4\app\src\main\AndroidManifest.xml:24:13-42
+34            android:exported="false" />
+34-->C:\Users\endem\AndroidStudioProjects\ReMed4\app\src\main\AndroidManifest.xml:25:13-37
+35        <activity
+35-->C:\Users\endem\AndroidStudioProjects\ReMed4\app\src\main\AndroidManifest.xml:26:9-28:40
+36            android:name="com.example.remed4.SecondFragment"
+36-->C:\Users\endem\AndroidStudioProjects\ReMed4\app\src\main\AndroidManifest.xml:27:13-43
+37            android:exported="false" />
+37-->C:\Users\endem\AndroidStudioProjects\ReMed4\app\src\main\AndroidManifest.xml:28:13-37
+38        <activity
+38-->C:\Users\endem\AndroidStudioProjects\ReMed4\app\src\main\AndroidManifest.xml:29:9-31:40
+39            android:name="com.example.remed4.Canagliflozin"
+39-->C:\Users\endem\AndroidStudioProjects\ReMed4\app\src\main\AndroidManifest.xml:30:13-42
+40            android:exported="false" />
+40-->C:\Users\endem\AndroidStudioProjects\ReMed4\app\src\main\AndroidManifest.xml:31:13-37
+41        <activity
+41-->C:\Users\endem\AndroidStudioProjects\ReMed4\app\src\main\AndroidManifest.xml:32:9-34:40
+42            android:name="com.example.remed4.Cardicheck"
+42-->C:\Users\endem\AndroidStudioProjects\ReMed4\app\src\main\AndroidManifest.xml:33:13-39
+43            android:exported="false" />
+43-->C:\Users\endem\AndroidStudioProjects\ReMed4\app\src\main\AndroidManifest.xml:34:13-37
+44        <activity
+44-->C:\Users\endem\AndroidStudioProjects\ReMed4\app\src\main\AndroidManifest.xml:35:9-37:40
+45            android:name="com.example.remed4.Corbis"
+45-->C:\Users\endem\AndroidStudioProjects\ReMed4\app\src\main\AndroidManifest.xml:36:13-35
+46            android:exported="false" />
+46-->C:\Users\endem\AndroidStudioProjects\ReMed4\app\src\main\AndroidManifest.xml:37:13-37
+47        <activity
+47-->C:\Users\endem\AndroidStudioProjects\ReMed4\app\src\main\AndroidManifest.xml:38:9-40:40
+48            android:name="com.example.remed4.Tamsulosin"
+48-->C:\Users\endem\AndroidStudioProjects\ReMed4\app\src\main\AndroidManifest.xml:39:13-39
+49            android:exported="false" />
+49-->C:\Users\endem\AndroidStudioProjects\ReMed4\app\src\main\AndroidManifest.xml:40:13-37
+50        <activity
+50-->C:\Users\endem\AndroidStudioProjects\ReMed4\app\src\main\AndroidManifest.xml:41:9-43:40
+51            android:name="com.example.remed4.Ecosprin"
+51-->C:\Users\endem\AndroidStudioProjects\ReMed4\app\src\main\AndroidManifest.xml:42:13-37
+52            android:exported="false" />
+52-->C:\Users\endem\AndroidStudioProjects\ReMed4\app\src\main\AndroidManifest.xml:43:13-37
+53        <activity
+53-->C:\Users\endem\AndroidStudioProjects\ReMed4\app\src\main\AndroidManifest.xml:44:9-46:40
+54            android:name="com.example.remed4.Dolo"
+54-->C:\Users\endem\AndroidStudioProjects\ReMed4\app\src\main\AndroidManifest.xml:45:13-33
+55            android:exported="false" />
+55-->C:\Users\endem\AndroidStudioProjects\ReMed4\app\src\main\AndroidManifest.xml:46:13-37
+56        <activity
+56-->C:\Users\endem\AndroidStudioProjects\ReMed4\app\src\main\AndroidManifest.xml:47:9-49:40
+57            android:name="com.example.remed4.FirstActivity"
+57-->C:\Users\endem\AndroidStudioProjects\ReMed4\app\src\main\AndroidManifest.xml:48:13-42
+58            android:exported="false" />
+58-->C:\Users\endem\AndroidStudioProjects\ReMed4\app\src\main\AndroidManifest.xml:49:13-37
+59        <activity
+59-->C:\Users\endem\AndroidStudioProjects\ReMed4\app\src\main\AndroidManifest.xml:50:9-52:40
+60            android:name="com.example.remed4.SignUpActivity"
+60-->C:\Users\endem\AndroidStudioProjects\ReMed4\app\src\main\AndroidManifest.xml:51:13-43
+61            android:exported="false" />
+61-->C:\Users\endem\AndroidStudioProjects\ReMed4\app\src\main\AndroidManifest.xml:52:13-37
+62        <activity
+62-->C:\Users\endem\AndroidStudioProjects\ReMed4\app\src\main\AndroidManifest.xml:53:9-55:40
+63            android:name="com.example.remed4.LoginActivity"
+63-->C:\Users\endem\AndroidStudioProjects\ReMed4\app\src\main\AndroidManifest.xml:54:13-42
+64            android:exported="false" />
+64-->C:\Users\endem\AndroidStudioProjects\ReMed4\app\src\main\AndroidManifest.xml:55:13-37
+65        <activity
+65-->C:\Users\endem\AndroidStudioProjects\ReMed4\app\src\main\AndroidManifest.xml:56:9-58:40
+66            android:name="com.example.remed4.FreshBuy"
+66-->C:\Users\endem\AndroidStudioProjects\ReMed4\app\src\main\AndroidManifest.xml:57:13-37
+67            android:exported="false" />
+67-->C:\Users\endem\AndroidStudioProjects\ReMed4\app\src\main\AndroidManifest.xml:58:13-37
+68        <activity
+68-->C:\Users\endem\AndroidStudioProjects\ReMed4\app\src\main\AndroidManifest.xml:59:9-67:20
+69            android:name="com.example.remed4.MainActivity"
+69-->C:\Users\endem\AndroidStudioProjects\ReMed4\app\src\main\AndroidManifest.xml:60:13-41
+70            android:exported="true" >
+70-->C:\Users\endem\AndroidStudioProjects\ReMed4\app\src\main\AndroidManifest.xml:61:13-36
+71            <intent-filter>
+71-->C:\Users\endem\AndroidStudioProjects\ReMed4\app\src\main\AndroidManifest.xml:62:13-66:29
+72                <action android:name="android.intent.action.MAIN" />
+72-->C:\Users\endem\AndroidStudioProjects\ReMed4\app\src\main\AndroidManifest.xml:63:17-69
+72-->C:\Users\endem\AndroidStudioProjects\ReMed4\app\src\main\AndroidManifest.xml:63:25-66
+73
+74                <category android:name="android.intent.category.LAUNCHER" />
+74-->C:\Users\endem\AndroidStudioProjects\ReMed4\app\src\main\AndroidManifest.xml:65:17-77
+74-->C:\Users\endem\AndroidStudioProjects\ReMed4\app\src\main\AndroidManifest.xml:65:27-74
+75            </intent-filter>
+76        </activity>
+77
+78        <provider
+78-->[androidx.emoji2:emoji2:1.0.0] C:\Users\endem\.gradle\caches\transforms-3\2c96a293c0a835e94af1ddc4d74ff22d\transformed\emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
+79            android:name="androidx.startup.InitializationProvider"
+79-->[androidx.emoji2:emoji2:1.0.0] C:\Users\endem\.gradle\caches\transforms-3\2c96a293c0a835e94af1ddc4d74ff22d\transformed\emoji2-1.0.0\AndroidManifest.xml:27:13-67
+80            android:authorities="com.example.remed4.androidx-startup"
+80-->[androidx.emoji2:emoji2:1.0.0] C:\Users\endem\.gradle\caches\transforms-3\2c96a293c0a835e94af1ddc4d74ff22d\transformed\emoji2-1.0.0\AndroidManifest.xml:28:13-68
+81            android:exported="false" >
+81-->[androidx.emoji2:emoji2:1.0.0] C:\Users\endem\.gradle\caches\transforms-3\2c96a293c0a835e94af1ddc4d74ff22d\transformed\emoji2-1.0.0\AndroidManifest.xml:29:13-37
+82            <meta-data
+82-->[androidx.emoji2:emoji2:1.0.0] C:\Users\endem\.gradle\caches\transforms-3\2c96a293c0a835e94af1ddc4d74ff22d\transformed\emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
+83                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+83-->[androidx.emoji2:emoji2:1.0.0] C:\Users\endem\.gradle\caches\transforms-3\2c96a293c0a835e94af1ddc4d74ff22d\transformed\emoji2-1.0.0\AndroidManifest.xml:32:17-75
+84                android:value="androidx.startup" />
+84-->[androidx.emoji2:emoji2:1.0.0] C:\Users\endem\.gradle\caches\transforms-3\2c96a293c0a835e94af1ddc4d74ff22d\transformed\emoji2-1.0.0\AndroidManifest.xml:33:17-49
+85            <meta-data
+85-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\endem\.gradle\caches\transforms-3\bdba8a1b7f77d959878d5a52670cf96f\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
+86                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+86-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\endem\.gradle\caches\transforms-3\bdba8a1b7f77d959878d5a52670cf96f\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
+87                android:value="androidx.startup" />
+87-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\endem\.gradle\caches\transforms-3\bdba8a1b7f77d959878d5a52670cf96f\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
+88        </provider>
+89        <provider
+89-->[com.squareup.picasso:picasso:2.71828] C:\Users\endem\.gradle\caches\transforms-3\a41e956d76a71fe6a1ca9b335a28f6fe\transformed\picasso-2.71828\AndroidManifest.xml:8:9-11:40
+90            android:name="com.squareup.picasso.PicassoProvider"
+90-->[com.squareup.picasso:picasso:2.71828] C:\Users\endem\.gradle\caches\transforms-3\a41e956d76a71fe6a1ca9b335a28f6fe\transformed\picasso-2.71828\AndroidManifest.xml:9:13-64
+91            android:authorities="com.example.remed4.com.squareup.picasso"
+91-->[com.squareup.picasso:picasso:2.71828] C:\Users\endem\.gradle\caches\transforms-3\a41e956d76a71fe6a1ca9b335a28f6fe\transformed\picasso-2.71828\AndroidManifest.xml:10:13-72
+92            android:exported="false" />
+92-->[com.squareup.picasso:picasso:2.71828] C:\Users\endem\.gradle\caches\transforms-3\a41e956d76a71fe6a1ca9b335a28f6fe\transformed\picasso-2.71828\AndroidManifest.xml:11:13-37
+93    </application>
+94
+95</manifest>

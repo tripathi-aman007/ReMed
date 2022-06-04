@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "1054190732115",
+    "project_id": "remed-dbbb6",
+    "storage_bucket": "remed-dbbb6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1054190732115:android:edba6013c219960510d7a6",
+        "android_client_info": {
+          "package_name": "com.example.remed4"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1054190732115-01og0r5v054vcpedt5164gj5s84haefm.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.remed4",
+            "certificate_hash": "68d954e58e08b9b6560097090ce8bc5d387d6aef"
+          }
+        },
+        {
+          "client_id": "1054190732115-9v4v08pi5mtnud2khe31blolgc547geo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCUwa15fZURAUe2B5paeFKv7Jer-WWDxW8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1054190732115-9v4v08pi5mtnud2khe31blolgc547geo.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
